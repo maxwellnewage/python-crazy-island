@@ -1,3 +1,8 @@
+from entities.bat import Bat
+
 
 if __name__ == '__main__':
-    print("Game start...again!")
+    bat = Bat()
+
+    print(f'apareció un {bat} salvaje!')
+    print(bat.draw())
